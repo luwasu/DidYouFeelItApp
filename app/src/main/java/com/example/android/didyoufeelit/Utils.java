@@ -21,6 +21,7 @@ import android.util.Log;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.ls.LSOutput;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -39,6 +40,7 @@ public final class Utils {
 
     /** Tag for the log messages */
     public static final String LOG_TAG = Utils.class.getSimpleName();
+
 
     /**
      * Query the USGS dataset and return an {@link Event} object to represent a single earthquake.
